@@ -1,0 +1,26 @@
+#IRSSI config
+
+servers = (
+  {
+    address = "irc.freenode.net";
+    chatnet = "freenode";
+    port = "6667";
+    use_ssl = "no";
+    ssl_verify = "no";
+    autoconnect = "yes";
+  }
+);
+
+chatnets = {
+  Freenode = {
+    type = "IRC";
+    autosendcmd = "/msg nickserv identify jury ***";
+  };
+};
+
+
+settings = {
+  core = { real_name = "jury"; user_name = "jury"; nick = "jury"; };
+  "fe-text" = { actlist_sort = "refnum"; term_force_colors = "yes"; scrollback_time = "7day "; };
+  "fe-common/core" = { theme = "default"; };
+};
