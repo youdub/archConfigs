@@ -24,7 +24,7 @@ default_outline_color white
 alignment bottom_left
 gap_x 8
 gap_y 8
-no_buffers yes
+no_buffers no
 uppercase no
 cpu_avg_samples 2
 override_utf8_locale no
